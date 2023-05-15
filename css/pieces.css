@@ -1,0 +1,22 @@
+/* Black Pieces */
+.king-black{
+    background-image: url('../assets/mainImgs/Black/Black_King.svg');
+}
+
+.rook-black-1,
+.rook-black-2{
+    background-image: url('../assets/mainImgs/Black/Black_Rook.svg');
+}
+
+
+
+
+/* White Pieces */
+.king-white{
+    background-image: url('../assets/mainImgs/White/White_King.svg');
+}
+
+.rook-white-1,
+.rook-white-2{
+    background-image: url('../assets/mainImgs/White/White_Rook.svg');
+}
