@@ -11,6 +11,5 @@ const Rook = (pieceName, id, piecePosIs, classNameIs, keyIs) => {
 
 
     alwaysRunnerOnPiece(id, keyIs);
-    console.log(piecesPos)
     return 0;
 }

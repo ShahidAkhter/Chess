@@ -1,5 +1,5 @@
-const King = (pieceName,id, piecePosIs, classNameIs, keyIs) => {
-    let changePosIs = changePos(pieceName,id, piecePosIs, classNameIs, keyIs)
+const King = (pieceName, id, piecePosIs, classNameIs, keyIs) => {
+    let changePosIs = changePos(pieceName, id, piecePosIs, classNameIs, keyIs)
     if (changePosIs !== 0) {
         return 0;
     }
@@ -14,6 +14,5 @@ const King = (pieceName,id, piecePosIs, classNameIs, keyIs) => {
 
 
     alwaysRunnerOnPiece(id, keyIs);
-    console.log(piecesPos)
     return 0;
 }

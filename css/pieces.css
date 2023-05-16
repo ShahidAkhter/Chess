@@ -3,10 +3,21 @@
     background-image: url('../assets/mainImgs/Black/Black_King.svg');
 }
 
+
+.queen-black{
+    background-image: url('../assets/mainImgs/Black/Black_Queen.svg');
+}
+
 .rook-black-1,
 .rook-black-2{
     background-image: url('../assets/mainImgs/Black/Black_Rook.svg');
 }
+
+.bishop-black-1,
+.bishop-black-2{
+    background-image: url('../assets/mainImgs/Black/Black_Bishop.svg');
+}
+
 
 
 
@@ -16,7 +27,15 @@
     background-image: url('../assets/mainImgs/White/White_King.svg');
 }
 
+.queen-white{
+    background-image: url('../assets/mainImgs/White/White_Queen.svg');
+}
+
 .rook-white-1,
 .rook-white-2{
     background-image: url('../assets/mainImgs/White/White_Rook.svg');
+}
+.bishop-white-1,
+.bishop-white-2{
+    background-image: url('../assets/mainImgs/White/White_Bishop.svg');
 }

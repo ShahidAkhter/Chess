@@ -30,12 +30,22 @@ const boardDesign = () => {
     document.getElementById(piecesPos["Black"]['King'][0]).classList.add('king-black')
     document.getElementById(piecesPos["White"]['King'][0]).classList.add('king-white')
 
+    document.getElementById(piecesPos["Black"]['Queen'][0]).classList.add('queen-black')
+    document.getElementById(piecesPos["White"]['Queen'][0]).classList.add('queen-white')
+
     // Rook Initial Positioning
     document.getElementById(piecesPos["White"]['Rook_1'][0]).classList.add('rook-white-1')
     document.getElementById(piecesPos["White"]['Rook_2'][0]).classList.add('rook-white-2')
 
     document.getElementById(piecesPos["Black"]['Rook_1'][0]).classList.add('rook-black-1')
     document.getElementById(piecesPos["Black"]['Rook_2'][0]).classList.add('rook-black-2')
+
+    // Bishop Initial Positioning
+    document.getElementById(piecesPos["White"]['Bishop_1'][0]).classList.add('bishop-white-1')
+    document.getElementById(piecesPos["White"]['Bishop_2'][0]).classList.add('bishop-white-2')
+
+    document.getElementById(piecesPos["Black"]['Bishop_1'][0]).classList.add('bishop-black-1')
+    document.getElementById(piecesPos["Black"]['Bishop_2'][0]).classList.add('bishop-black-2')
 
     Array.from(allSquares).forEach(element => {
         gameLogic(element)
