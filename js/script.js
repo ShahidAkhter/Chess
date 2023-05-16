@@ -54,6 +54,25 @@ const boardDesign = () => {
     document.getElementById(piecesPos["Black"]['Rook_1'][0]).classList.add('rook-black-1')
     document.getElementById(piecesPos["Black"]['Rook_2'][0]).classList.add('rook-black-2')
 
+    // Pawn Initial Positioning
+    document.getElementById(piecesPos["White"]['Pawn_1'][0]).classList.add('pawn-white-1')
+    document.getElementById(piecesPos["White"]['Pawn_2'][0]).classList.add('pawn-white-2')
+    document.getElementById(piecesPos["White"]['Pawn_3'][0]).classList.add('pawn-white-3')
+    document.getElementById(piecesPos["White"]['Pawn_4'][0]).classList.add('pawn-white-4')
+    document.getElementById(piecesPos["White"]['Pawn_5'][0]).classList.add('pawn-white-5')
+    document.getElementById(piecesPos["White"]['Pawn_6'][0]).classList.add('pawn-white-6')
+    document.getElementById(piecesPos["White"]['Pawn_7'][0]).classList.add('pawn-white-7')
+    document.getElementById(piecesPos["White"]['Pawn_8'][0]).classList.add('pawn-white-8')
+
+    document.getElementById(piecesPos["Black"]['Pawn_1'][0]).classList.add('pawn-black-1')
+    document.getElementById(piecesPos["Black"]['Pawn_2'][0]).classList.add('pawn-black-2')
+    document.getElementById(piecesPos["Black"]['Pawn_3'][0]).classList.add('pawn-black-3')
+    document.getElementById(piecesPos["Black"]['Pawn_4'][0]).classList.add('pawn-black-4')
+    document.getElementById(piecesPos["Black"]['Pawn_5'][0]).classList.add('pawn-black-5')
+    document.getElementById(piecesPos["Black"]['Pawn_6'][0]).classList.add('pawn-black-6')
+    document.getElementById(piecesPos["Black"]['Pawn_7'][0]).classList.add('pawn-black-7')
+    document.getElementById(piecesPos["Black"]['Pawn_8'][0]).classList.add('pawn-black-8')
+
 
     Array.from(allSquares).forEach(element => {
         gameLogic(element)
