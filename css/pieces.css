@@ -8,16 +8,20 @@
     background-image: url('../assets/mainImgs/Black/Black_Queen.svg');
 }
 
-.rook-black-1,
-.rook-black-2{
-    background-image: url('../assets/mainImgs/Black/Black_Rook.svg');
-}
-
 .bishop-black-1,
 .bishop-black-2{
     background-image: url('../assets/mainImgs/Black/Black_Bishop.svg');
 }
 
+.knight-black-1,
+.knight-black-2{
+    background-image: url('../assets/mainImgs/Black/Black_Knight.svg');
+}
+
+.rook-black-1,
+.rook-black-2{
+    background-image: url('../assets/mainImgs/Black/Black_Rook.svg');
+}
 
 
 
@@ -31,11 +35,16 @@
     background-image: url('../assets/mainImgs/White/White_Queen.svg');
 }
 
-.rook-white-1,
-.rook-white-2{
-    background-image: url('../assets/mainImgs/White/White_Rook.svg');
-}
 .bishop-white-1,
 .bishop-white-2{
     background-image: url('../assets/mainImgs/White/White_Bishop.svg');
+}
+
+.knight-white-1,
+.knight-white-2{
+    background-image: url('../assets/mainImgs/White/White_Knight.svg');
+}
+.rook-white-1,
+.rook-white-2{
+    background-image: url('../assets/mainImgs/White/White_Rook.svg');
 }
